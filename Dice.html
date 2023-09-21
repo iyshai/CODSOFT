@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="diice.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dice Game</title>
+  </head>
+  <body>
+    <div class="upper_container">
+      <h1>Refresh me</h1>
+    </div>
+
+    <div class="dice">
+      <p>player 1</p>
+      <img id="random-photo1" src="dicepng/dice1.png" alt="player1" />
+    </div>
+
+    <div class="dice">
+      <p>player 2</p>
+      <img id="random-photo2" src="dicepng/dice2.png" alt="player 2" />
+    </div>
+
+    <script src="dice.js" charset="UTF-8"></script>
+
+    <div class="bottom_container" >
+
+        <button id="refresh-button">Touch me</button>
+        <script>
+          const refreshButton = document.getElementById('refresh-button');
+          
+          refreshButton.addEventListener('click', function() {
+            location.reload();
+          });
+        </script>
+    </div>
+   
+  </body>
+</html>

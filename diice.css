@@ -1,0 +1,53 @@
+body{
+    background-color: #917FB3;
+}
+
+h1{
+    font-family: 'Cookie', cursive;
+    font-size: 100px;
+    color: #E5BEEC;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.upper_container{
+    text-align: center;
+    padding: 10px;
+    color: #E5BEEC;
+}
+
+.dice {
+
+    text-align: center;
+
+    display: inline-block;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 250px;
+    color: #E5BEEC;
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+   
+}
+
+img{
+    height: 350px;
+}
+
+#refresh-button {
+    /* font-family: 'Cookie', cursive; */
+    font-size: 30px;
+    text-align: center;
+    background-color:black;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:30px;
+    min-height:30px; 
+    min-width: 120px;
+  }
+
+  .bottom_container{
+
+    position: relative;
+    left: 630px;
+  }

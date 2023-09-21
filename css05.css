@@ -1,0 +1,244 @@
+/* this is a very important project try not distroy it  */
+
+body{
+  margin: 0;
+  text-align: center;
+  margin-bottom: 0;
+  color: #40514E;
+}
+h2{
+  color: black;
+}
+
+h3{
+  color: black;
+}
+.heading{
+  font-family: 'Allura', cursive; 
+}
+
+h1{
+    margin: 0;
+    top: 0;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 70px;
+    
+}
+p{
+    
+/* font-family: 'Shadows Into Light', cursive; */
+font-family: 'Michroma', sans-serif;
+/* line-height: 25px; */
+
+}
+
+.upper-container
+{
+    color: white;
+    background-image: url("images1/background-image.png");    
+    background-color: #ECF2FF;
+    background-size: 3000px 3000px;
+    padding: 20px; 
+    /* position: absolute; */
+    padding-top: 40px;
+    position: relative;
+}
+.profile-photo{
+    border-radius: 50%;
+}
+.image-demone02{
+    width: 300px;
+    position: absolute;
+    top: 495px;
+    left: 1140px;
+  
+    
+}
+
+.navigation-bar{
+
+    position: absolute;
+
+}
+.navigation{
+    color: white;
+    padding: 20px;
+    font-size: 120%;
+    margin-left: 40px;
+    text-decoration: none ;
+
+}
+
+.search-input {
+    text-align: left;
+    /* align-items: center; */
+    position:absolute;
+    right: 40px;
+    width: 200px;
+    height: 29px;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .search-icon{
+    width: 50px;
+    position: absolute;
+    right: 250px;
+    top: 33px;
+  }
+  .middle-container{
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .bottom-cantainer{
+    padding-top: 20px;
+  }
+  .contact-button{
+    padding: 20px;
+  }
+  hr
+  {     
+      border-width: 10px;
+      border-color: black;
+      border-style: dotted none none;
+      width: 10%;
+  }
+  .footer-link{
+    padding-top: 10px;
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 0;
+  }
+  .bottom-container{
+    background-color: #EEEEEE;
+    margin-bottom: 0;
+    padding: 40px;
+    position: relative;
+  }
+  .hr01{
+    margin-top: 40px;
+  }
+
+  .profile{
+    padding-bottom: 20px;
+  }
+  .skill-row
+  {
+    padding-top: 0;
+    padding: 20px;
+  }
+
+  .icons-logo1
+  {
+    width: 50px;
+    position: absolute;
+    left: 490px;
+    top: 85px;
+
+  }
+  .icons-logo2
+  {
+
+    width: 50px;
+    position: absolute;
+    left: 650px;
+    top: 85px;
+
+   
+  }
+  .icons-logo3{
+
+    width: 50px;
+    position: absolute;
+    left: 820px;
+    top: 85px;
+
+  }
+
+  .icons-logo4
+  {
+
+    width: 50px;
+    position: absolute;
+    right: 385px;
+    top: 85px;
+
+   
+  }
+
+  @media only screen and (max-width: 959px)
+  {
+    .image-demone02{
+      display: none;
+    
+      
+  }
+  }
+
+  @media screen and (max-width: 479px){
+
+    .navigation{
+      color: white;
+      padding: 5px;
+      font-size: 120%;
+      margin-left: 40px;
+      text-decoration: none ;
+  
+  }
+
+
+  }
+  .skill-row{
+
+    width: 50%;
+    margin:40px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+    margin-bottom: 40px;
+  }
+
+  .skill-image{
+
+    margin-left:25% ;
+
+    
+    
+  }
+  .profile{
+
+
+    width: 50%;
+    margin: 40px auto 40px auto ;
+
+
+  }
+
+  .btn {
+    background: #40514E;
+    background-image: -webkit-linear-gradient(top, #40514E, #40514E);
+    background-image: -moz-linear-gradient(top, #40514E, #40514E);
+    background-image: -ms-linear-gradient(top, #40514E, #40514E);
+    background-image: -o-linear-gradient(top, #40514E, #40514E);
+    background-image: linear-gradient(to bottom, #40514E, #40514E);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
